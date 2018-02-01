@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    tools:context=".PostPicture">
+
+
+    <ImageView
+        android:id="@+id/placepic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/imgname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/placepic"
+        android:layout_marginStart="44dp"
+        android:gravity="center"
+        android:hint="Title..."
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/imgcaption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgname"
+        android:layout_below="@+id/imgname"
+        android:gravity="center"
+        android:hint="Description..."
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/bttnupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bttnpost"
+        android:layout_alignBottom="@+id/bttnpost"
+        android:layout_alignStart="@+id/imgcaption"
+        android:layout_marginStart="32dp"
+        android:background="#fa2e20"
+        android:text="upload photo" />
+
+       <Button
+           android:id="@+id/bttnpost"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentEnd="true"
+           android:layout_marginBottom="56dp"
+           android:layout_marginEnd="77dp"
+           android:text="post photo"
+           android:background="#038ef9"/>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/navigation_nearby"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Nearby" />
+
+    <item
+        android:id="@+id/navigation_sitem"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/navigation_center"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Business" />
+
+</menu>

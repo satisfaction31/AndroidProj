@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "365953510174",
+    "firebase_url": "https://dashboard-c094a.firebaseio.com",
+    "project_id": "dashboard-c094a",
+    "storage_bucket": "dashboard-c094a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365953510174:android:c276bb1cf0066edb",
+        "android_client_info": {
+          "package_name": "sampayan.edward.testtrasearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365953510174-1c3i5mlpnef4om5v70iq4nce9o3uu3uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw8V7uUP6UJPepHJshfjFOe9g4qe_D0wk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
